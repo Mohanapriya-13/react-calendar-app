@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Standup",
+    "date": "2025-11-10", 
+    "startTime": "09:00", 
+    "endTime": "09:30",
+    "duration": 30, 
+    "color": "#4a90e2" 
+  },
+  {
+    "id": 2,
+    "title": "Client Demo",
+    "date": "2025-11-10",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "duration": 120,
+    "color": "#f6be23"
+  },
+  {
+    "id": 3,
+    "title": "Overlapping Check",
+    "date": "2025-11-10",
+    "startTime": "15:00", 
+    "endTime": "15:30",
+    "duration": 30,
+    "color": "#f6501e" 
+  }
+]
