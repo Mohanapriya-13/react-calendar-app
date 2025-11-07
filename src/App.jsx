@@ -9,7 +9,6 @@ function App() {
 
   const [showForm, setShowForm] = useState(false);
 
-  // 🧠 Load from localStorage OR use static events first time
   useEffect(() => {
     const stored = localStorage.getItem("calendarEvents");
     if (stored) {
@@ -20,7 +19,6 @@ function App() {
     }
   }, []);
 
-  // 💾 Save to localStorage whenever events change
   useEffect(() => {
     localStorage.setItem("calendarEvents", JSON.stringify(events));
   }, [events]);
