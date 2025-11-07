@@ -202,7 +202,6 @@ button:hover {
   border: 1px solid #eee;
 }
 
-/* Modal Overlay */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -213,7 +212,6 @@ button:hover {
   z-index: 999;
 }
 
-/* Modal Box */
 .modal-content {
   background: #fff;
   padding: 30px;
